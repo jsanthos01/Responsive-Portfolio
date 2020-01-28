@@ -1,0 +1,92 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+
+/* Header Section Styling */
+.header-area {
+    margin: 25px;
+}
+
+.header-area .navbar img {
+    width: 60px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 5px;
+}
+
+.header-area .navbar .navbar-nav a {
+    padding: 25px;
+    display: block;
+    text-align: right;
+    color: black;
+    font-size: 20px;
+}
+/* Main Section Styling */
+.site-banner {
+    padding-top: 5%;
+
+}
+
+.site-banner .banner-image img {
+    width: 300px;
+    border: 10px solid blueviolet;
+    border-radius: 50px;
+    vertical-align: middle;
+}
+
+.site-banner .site-title {
+    padding-top: 15%;
+}
+.site-banner .site-title h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+.site-banner .site-title h2{
+    font-size: 35px;
+}
+
+.about-area {
+    margin-bottom: 40px;
+}
+.about-area .about-image img {
+    width: 100%;
+}
+
+.about-area .about-title {
+    padding-top: 8%;
+
+}
+
+/* Footer Styling */
+footer {
+    width: 100%;
+    margin-top: 50px;
+    background: blueviolet;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 0px;
+  
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+
+}
+
+.footer-links a {
+    opacity: 0.5;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 0px 10px;
+    color: white;
+}
+
+.footer-links a:hover {
+    opacity: 1;
+}
