@@ -1,13 +1,17 @@
 body {
     box-sizing: border-box;
-    margin: 0;
+    margin: 0 auto;
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
 }
 
+
+
 /* Header Section Styling */
 .header-area {
-    margin: 25px;
+    margin-bottom: 35px;
+    background-color: #28104e;
+   
 }
 
 .header-area .navbar img {
@@ -15,15 +19,21 @@ body {
     border-radius: 50%;
     background-color: white;
     padding: 5px;
+    
 }
 
 .header-area .navbar .navbar-nav a {
     padding: 25px;
     display: block;
     text-align: right;
-    color: black;
+    color: white;
     font-size: 20px;
 }
+
+.header-area .navbar .navbar-nav a:hover {
+    color: #C4AAFA;
+}
+
 /* Main Section Styling */
 .site-banner {
     padding-top: 5%;
@@ -31,15 +41,20 @@ body {
 }
 
 .site-banner .banner-image img {
-    width: 300px;
-    border: 10px solid blueviolet;
+    width: 60%;
+    border: 10px solid #6237a0;
     border-radius: 50px;
     vertical-align: middle;
+    padding: 2px;
 }
 
 .site-banner .site-title {
-    padding-top: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
 }
+
 .site-banner .site-title h1{
     font-size: 50px;
     font-weight: bold;
@@ -58,19 +73,32 @@ body {
 }
 
 .about-area .about-title {
-    padding-top: 8%;
+    padding-top: 10%;
+    
 
 }
+
+.about-area p {
+    text-align: justify;
+}
+
 
 /* Footer Styling */
 footer {
     width: 100%;
     margin-top: 50px;
-    background: blueviolet;
+    background-color: #28104e;
     display: flex;
     justify-content: space-evenly;
     padding: 30px 0px;
+    
   
+}
+
+.copyright {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
 }
 
 .footer-links {
@@ -82,11 +110,72 @@ footer {
 .footer-links a {
     opacity: 0.5;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 25px;
     padding: 0px 10px;
-    color: white;
+    color: #C4AAFA;
 }
 
 .footer-links a:hover {
     opacity: 1;
+}
+
+
+/* Contact Info Form Styling  */
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.contact-info h2 {
+    background-color: #6237a0;
+    color: white;
+    padding: 25px;
+    font-weight: bold;
+    letter-spacing: 5px;
+
+}
+
+form {
+    padding: 50px;
+    background-color:  #C4AAFA;
+    color: black;
+    
+}
+/* Portfolio Styling Section  */
+.portfolio-title {
+    padding: 25px;
+    color: #6237a0;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.card-image {
+    padding-top: 35px;
+}
+.card .card-body h5 {
+    padding: 5px;
+    font-weight: bold;
+    
+}
+
+.card {
+    border: 1px solid blueviolet;
+    
+}
+
+.card:hover {
+    background-color: #C4AAFA;
+    color: white;
+    box-shadow:black;
+}
+
+.card-link {
+    color: darkorchid;
+}
+
+.card-link:hover {
+    color: black;
 }
